@@ -69,7 +69,7 @@
       speed.textContent = data.coords.speed;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`;
     }, (err) => {
-      console.err(err);
+      console.error(err);
       alert('HEY! YOU GOTTA ALLOW THAT TO HAPPEN!!!');
     });
 
